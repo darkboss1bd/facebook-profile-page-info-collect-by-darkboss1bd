@@ -42,7 +42,11 @@ cd facebook-profile-page-info-collect-by-darkboss1bd
 python3 -h
 ```
 ```
+FREE PLAN USE CODE
+python3 facebook-profile-page-info-collect-by-darkboss1bd.py -u usernamefacebook
+PREMIUM PLAN USE CODE
 python3 facebook-profile-page-info-collect-by-darkboss1bd.py -u usernamefacebook --no-page --no-posts
+
 ```
 # REQUIREMENTS
 ```
