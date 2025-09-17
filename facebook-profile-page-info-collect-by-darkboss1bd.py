@@ -65,7 +65,7 @@ def build_session() -> requests.Session:
     adapter = HTTPAdapter(max_retries=retries)
     session.mount("https://", adapter)
     session.mount("http://", adapter)
-    session.headers.update({"User-Agent": "meta-scan/1.0 (+https://github.com/HackUnderway/meta_scan)"})
+    session.headers.update({"User-Agent": "meta-scan/1.0 (+https://github.com/darkboss1bd/facebook-profile-page-info-collect-by-darkboss1bd.git)"})
     return session
 
 
@@ -372,3 +372,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
